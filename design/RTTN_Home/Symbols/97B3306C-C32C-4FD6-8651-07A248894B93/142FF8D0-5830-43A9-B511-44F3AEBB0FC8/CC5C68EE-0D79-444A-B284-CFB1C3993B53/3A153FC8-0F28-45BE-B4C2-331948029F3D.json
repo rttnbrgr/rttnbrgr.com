@@ -1,0 +1,118 @@
+{
+  "_class": "text",
+  "attributedString": {
+    "_class": "attributedString",
+    "attributes": [
+      {
+        "_class": "stringAttribute",
+        "attributes": {
+          "MSAttributedStringColorAttribute": {
+            "_class": "color",
+            "alpha": 1,
+            "blue": 0.07843137255,
+            "green": 0.03921568627,
+            "red": 0.03921568627
+          },
+          "MSAttributedStringFontAttribute": {
+            "_class": "fontDescriptor",
+            "attributes": {
+              "name": "HelveticaNeue-Bold",
+              "size": 24
+            }
+          },
+          "kerning": 0,
+          "paragraphStyle": {
+            "_class": "paragraphStyle",
+            "maximumLineHeight": 32,
+            "minimumLineHeight": 32
+          },
+          "textStyleVerticalAlignmentKey": 0
+        },
+        "length": 428,
+        "location": 0
+      }
+    ],
+    "string": "Coloring book art party activated charcoal, bushwick glossier pickled pabst vape enamel pin next level biodiesel synth. Bitters schlitz typewriter, YOLO hashtag gluten-free hot chicken selfies chia whatever mixtape you probably haven't heard of them roof party. You probably haven't heard of them sriracha typewriter salvia raw denim chambray. Bushwick viral meh trust fund, twee craft beer pour-over flannel celiac tbh butcher."
+  },
+  "automaticallyDrawOnUnderlyingPath": false,
+  "booleanOperation": -1,
+  "do_objectID": "3A153FC8-0F28-45BE-B4C2-331948029F3D",
+  "dontSynchroniseWithSymbol": false,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "do_objectID": "7949C2B2-8F9D-424C-B8F7-8DA0AE024943",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "do_objectID": "A0207409-0329-4F8F-8C09-DA4C8AB35C1F",
+    "height": 576,
+    "width": 311,
+    "x": 0,
+    "y": 152
+  },
+  "glyphBounds": "{{-1, 8}, {300, 563}}",
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "lineSpacingBehaviour": 2,
+  "name": "Coloring book art pa",
+  "nameIsFixed": false,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "do_objectID": "77B1CFDC-0DF4-4DCD-A000-89E2478A0F35",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "sharedObjectID": "15ED2884-CD5D-436F-AB82-A39C742726DD",
+    "startMarkerType": 0,
+    "textStyle": {
+      "_class": "textStyle",
+      "encodedAttributes": {
+        "MSAttributedStringColorAttribute": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.07843137255,
+          "green": 0.03921568627,
+          "red": 0.03921568627
+        },
+        "MSAttributedStringFontAttribute": {
+          "_class": "fontDescriptor",
+          "attributes": {
+            "name": "HelveticaNeue-Bold",
+            "size": 24
+          }
+        },
+        "kerning": 0,
+        "paragraphStyle": {
+          "_class": "paragraphStyle",
+          "maximumLineHeight": 32,
+          "minimumLineHeight": 32
+        },
+        "textStyleVerticalAlignmentKey": 0
+      },
+      "verticalAlignment": 0
+    },
+    "windingRule": 1
+  },
+  "textBehaviour": 1,
+  "userInfo": {
+    "com.animaapp.stc-sketch-plugin": {
+      "kModelPropertiesKey": {
+        "isAutoWidth": 0
+      }
+    }
+  }
+}

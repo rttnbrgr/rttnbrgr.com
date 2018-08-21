@@ -1,0 +1,71 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "do_objectID": "79EA53A3-2B60-45E3-951C-05307854FF69",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "do_objectID": "E8CCFE95-5AA4-4E91-8776-AD655E4AAF45",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": true,
+    "do_objectID": "7BAA3E1D-F0B3-4C81-BC3A-A72CBEE2499A",
+    "height": 150,
+    "width": 88,
+    "x": 0,
+    "y": 0
+  },
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": true,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "toon-face",
+  "nameIsFixed": false,
+  "overrideValues": [
+  ],
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "do_objectID": "5104BE27-0DAB-4554-AA6B-F9FBB9E187D0",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "35859A4F-9490-4B32-A945-65430F1BE6D2",
+  "userInfo": {
+    "com.animaapp.stc-sketch-plugin": {
+      "kModelPropertiesKey": {
+        "constraints": {
+          "aspectRatio": {
+            "constant": 150,
+            "enabled": 1,
+            "modelID": "constraint_c3cee783-6c0e-4756-afd5-d68eb525d448",
+            "model_class": "ADModelConstraint",
+            "model_version": 0.1,
+            "multiplier": 88
+          },
+          "automatic": 1,
+          "modelID": "viewConstraints_0b7cad3a-449d-48e4-b6c8-f7e00b3bee1f",
+          "model_class": "ADModelViewConstraints",
+          "model_version": 0.1,
+          "scaleFactor": 1
+        }
+      }
+    }
+  },
+  "verticalSpacing": 0
+}

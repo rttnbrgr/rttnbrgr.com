@@ -1,0 +1,85 @@
+{
+  "_class": "shapePath",
+  "booleanOperation": 1,
+  "do_objectID": "3F094210-8220-4DD2-8B04-D7689D8EDF47",
+  "edited": true,
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 2.640000000000001,
+    "width": 9.603000000000002,
+    "x": 29.30279999999993,
+    "y": 91.51169999999996
+  },
+  "isClosed": false,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Fill 8",
+  "nameIsFixed": false,
+  "pointRadiusBehaviour": 1,
+  "points": [
+    {
+      "_class": "curvePoint",
+      "cornerRadius": 0,
+      "curveFrom": "{0.28241174632927241, 1}",
+      "curveMode": 4,
+      "curveTo": "{0.4999479329376238, 1}",
+      "hasCurveFrom": true,
+      "hasCurveTo": false,
+      "point": "{0.4999479329376238, 1}"
+    },
+    {
+      "_class": "curvePoint",
+      "cornerRadius": 0,
+      "curveFrom": "{0, 0}",
+      "curveMode": 4,
+      "curveTo": "{0.10017702801207988, 0.37878787878787873}",
+      "hasCurveFrom": false,
+      "hasCurveTo": true,
+      "point": "{0, 0}"
+    },
+    {
+      "_class": "curvePoint",
+      "cornerRadius": 0,
+      "curveFrom": "{0.89982297198792016, 0.37878787878787873}",
+      "curveMode": 4,
+      "curveTo": "{1, 0}",
+      "hasCurveFrom": true,
+      "hasCurveTo": false,
+      "point": "{1, 0}"
+    },
+    {
+      "_class": "curvePoint",
+      "cornerRadius": 0,
+      "curveFrom": "{0.4999479329376238, 1}",
+      "curveMode": 4,
+      "curveTo": "{0.71748411954597513, 1}",
+      "hasCurveFrom": false,
+      "hasCurveTo": true,
+      "point": "{0.4999479329376238, 1}"
+    }
+  ],
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "userInfo": {
+    "com.animaapp.stc-sketch-plugin": {
+      "kModelPropertiesKey": {
+      }
+    }
+  }
+}
