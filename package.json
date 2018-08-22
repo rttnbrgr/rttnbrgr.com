@@ -4,7 +4,7 @@
   "description": "Homepage",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html -d dist --cache-dir .cache"
   },
   "author": "Nathan Mateo Rothenberger (@rttnbrgr)",
   "license": "ISC"
