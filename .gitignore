@@ -4,3 +4,7 @@ dist
 
 # Ignore sketch files
 *.sketch
+
+# NPM
+node_modules
+package-lock.json
