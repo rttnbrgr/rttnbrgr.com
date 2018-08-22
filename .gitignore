@@ -1,4 +1,6 @@
-
+# Build & Dev 
+dist
+.cache
 
 # Ignore sketch files
 *.sketch
