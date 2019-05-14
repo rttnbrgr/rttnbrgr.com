@@ -42,3 +42,20 @@ a:hover {
 svg {
     margin: 3.5rem 0;
 }
+
+/* new stuff */
+body {
+    background-color: teal; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 10em;
+    height: 10em;
+    border-radius: 4px;
+    display: block;
+    background: papayawhip;
+}
