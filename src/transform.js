@@ -5,7 +5,6 @@ const card = document.querySelector('.card') // Select the card
 console.log("h = " + getComputedStyle(doc).width.slice(0,-2));
 console.log("w = " + getComputedStyle(doc).height.slice(0,-2));
 
-
 document.addEventListener('mousemove', function(e) {
   
   // Get the width & height of the page  
@@ -13,13 +12,14 @@ document.addEventListener('mousemove', function(e) {
   let h =  getComputedStyle(doc).height.slice(0,-2);
   
   // Set max tilt for card
-  const maxTilt = 15;
-  const tiltFactor = h / 2 / maxTilt;
+  const maxTilt = 25;
+  const tiltFactor = dimension => dimension / 2 / maxTilt ;
   
   // Calculate the transform for card
-  let ry = (w / 2 - e.pageX) / 10;
-  let rx = (h / 2 - e.pageY) / tiltFactor;
+  let ry = (w / 2 - e.pageX) / tiltFactor(w);
+  let rx = (h / 2 - e.pageY) / tiltFactor(h);
   
   // Apply via inline style
-  card.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg`;
+  // card.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg`;
+  card.style.transform = `rotateX(${rx}deg)`;
 });
