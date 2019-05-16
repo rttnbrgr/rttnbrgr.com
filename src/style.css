@@ -96,4 +96,73 @@ body {
 .t4 h1 { color: #FCE897; }
 .t5 h1 { color: #866FED; }
 .t6 h1 { color: #72B6EC; }
+
+.border-text__wrapper {
+    /* position: absolute;
+    width: 100vw;
+    height: 100vh; */
 }
+
+.border-text {
+    position: absolute;
+    font-size: 12px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 2;
+    line-height: 28px;
+    display: block;
+}
+.border-text--top {
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.border-text--bottom {
+    left: 50%;
+    bottom: 0;
+    transform: rotate(180deg) translateX(50%);
+    transform-origin: center;
+}
+
+.border-text--right {
+    background: purple;
+    transform: rotate(90deg) translateX(50%);
+    transform-origin: top right;
+    right: 0%;
+    top: 50;
+}
+
+.border-text--left { 
+    /* display: none;  */
+    background: cornflowerblue;
+    left: 0;
+    top: 50%;
+    transform: rotate(-90deg) translateX(-50%);
+    transform-origin: top left;
+}
+
+
+.guide {
+    position: absolute;
+    background-color: black;
+}
+
+.guide--vertical {
+    width: 1px;
+    height: 100vh;
+    top: 0;
+}
+
+.guide--horizontal {
+    height: 1px;
+    width: 100vh;
+    left: 0;
+}
+
+.guide--right { right: calc(2 * 14px); }
+.guide--top { top: calc(2 * 14px); }
+.guide--center-vertical { right: 50vw; }
+.guide--center-horizontal { top: 50vh; }
