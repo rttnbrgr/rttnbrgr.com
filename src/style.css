@@ -121,35 +121,44 @@ body {
     line-height: 2;
     line-height: 28px;
     display: block;
+    text-align: center;
 }
+
+.border-text--h {
+    width: 100%;
+    left: 0;
+    /* debug */
+    background: cornflowerblue;
+}
+
+.border-text--w {
+
+    width: 100vh;
+    top: 100%;
+    /* debug */
+    background: palegreen;
+}
+
 .border-text--top {
-    left: 50%;
     top: 0;
-    transform: translateX(-50%);
 }
 
 .border-text--bottom {
-    left: 50%;
-    bottom: 0;
-    transform: rotate(180deg) translateX(50%);
     transform-origin: center;
+    bottom: 0;
+    transform: rotate(180deg);
 }
 
 .border-text--right {
-    background: purple;
-    transform: rotate(90deg) translateX(50%);
+    transform: rotate(90deg);
     transform-origin: top right;
-    right: 0%;
-    top: 50;
+    right: 0;
 }
 
 .border-text--left { 
-    /* display: none;  */
-    background: cornflowerblue;
-    left: 0;
-    top: 50%;
-    transform: rotate(-90deg) translateX(-50%);
+    transform: rotate(-90deg);
     transform-origin: top left;
+    left: 0;
 }
 
 /* 
@@ -169,7 +178,7 @@ body {
 
 .guide--horizontal {
     height: 1px;
-    width: 100vh;
+    width: 100vw;
     left: 0;
 }
 
@@ -177,3 +186,9 @@ body {
 .guide--top { top: calc(2 * 14px); }
 .guide--center-vertical { right: 50vw; }
 .guide--center-horizontal { top: 50vh; }
+
+
+.card, 
+.wrap {
+    max-width: 100%;
+}
