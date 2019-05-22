@@ -4,7 +4,7 @@
   "description": "Homepage",
   "main": "index.html",
   "scripts": {
-    "start": "parcel src/index.html -d dist --cache-dir .cache"
+    "start": "parcel src/*.html -d dist --cache-dir .cache"
   },
   "author": "Nathan Mateo Rothenberger (@rttnbrgr)",
   "license": "ISC",
