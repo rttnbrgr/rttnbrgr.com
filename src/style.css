@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 ul {
@@ -30,6 +31,7 @@ a {
 
 .root {
   padding: 1.5rem;
+  --black: #0f1014;
 }
 
 /* DUMB TYPOGRAPHY */
@@ -39,13 +41,15 @@ em,
 p,
 li {
   font-family: "Helvetica Neue", sans-serif;
-  color: black;
+  color: var(--black);
   font-size: 1.5rem;
   line-height: 2rem;
+  line-height: 1.75rem;
   font-weight: bold;
   font-style: normal;
   margin: 0;
   padding: 0;
+  letter-spacing: -0.7px;
 }
 
 p {
@@ -64,4 +68,8 @@ svg {
 
 .group + .group {
   margin-top: 2rem;
+}
+
+p + p {
+  margin-top: 1rem;
 }
