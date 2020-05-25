@@ -4,11 +4,13 @@
   "description": "Homepage",
   "main": "index.html",
   "scripts": {
-    "start": "parcel src/index.html -d dist --cache-dir .cache"
+    "start": "parcel src/index.html -d dist --cache-dir .cache",
+    "build": "parcel build src/index.html -d dist --cache-dir .cache",
+    "deploy": "netlify deploy --dir dist"
   },
   "author": "Nathan Mateo Rothenberger (@rttnbrgr)",
   "license": "ISC",
   "devDependencies": {
-    "cssnano": "^4.0.5"
+    "cssnano": "^4.1.10"
   }
 }
