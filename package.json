@@ -10,9 +10,9 @@
   },
   "author": "Nathan Mateo Rothenberger (@rttnbrgr)",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "cssnano": "^4.1.10",
     "parcel": "^1.12.4"
-  },
-  "dependencies": {}
+  }
 }
