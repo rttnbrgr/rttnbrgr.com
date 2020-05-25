@@ -5,8 +5,11 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel src/index.html -d dist --cache-dir .cache",
+    "dev": "yarn run start",
     "build": "parcel build src/index.html -d dist --cache-dir .cache",
-    "deploy": "netlify deploy --dir dist"
+    "stage": "netlify deploy --dir dist",
+    "deploy": "netlify deploy --dir dist --prod",
+    "launch": "yarn run build && yarn run deploy"
   },
   "author": "Nathan Mateo Rothenberger (@rttnbrgr)",
   "license": "ISC",
