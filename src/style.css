@@ -30,8 +30,10 @@ a {
 }
 
 .root {
-  padding: 1.5rem;
+  font-size: 1.5rem;
+  padding: 1.5em;
   --black: #0f1014;
+  --white: #fff;
 }
 
 /* DUMB TYPOGRAPHY */
@@ -43,8 +45,10 @@ li {
   font-family: "Helvetica Neue", sans-serif;
   color: var(--black);
   font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1em;
+  font-size: inherit;
   line-height: 1.75rem;
+  line-height: 1.2;
   font-weight: bold;
   font-style: normal;
   margin: 0;
@@ -52,9 +56,28 @@ li {
   letter-spacing: -0.7px;
 }
 
+/* @media screen and (min-width: 768px) {
+  h1,
+  h2,
+  em,
+  p,
+  li {
+    font-size: 2.5rem;
+  }
+} */
+
+h1 {
+  background: var(--black);
+  color: var(--white);
+  margin: 1rem 0 0.5rem;
+  padding: 0 0.25rem;
+  display: inline-block;
+}
+
 p {
   /* padding-bottom: 1.5rem; */
   max-width: 624px;
+  max-width: 26em;
 }
 
 a:hover {
@@ -68,8 +91,34 @@ svg {
 
 .group + .group {
   margin-top: 2rem;
+  margin-top: 2em;
 }
 
 p + p {
   margin-top: 1rem;
+  margin-top: 1em;
+}
+
+img {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .root {
+    font-size: 2.5rem;
+  }
+
+  /* p {
+    max-width: 624px;
+  } */
+}
+
+@media screen and (min-width: 1440px) {
+  .root {
+    font-size: 3.25rem;
+  }
+
+  /* p {
+    max-width: 624px;
+  } */
 }
